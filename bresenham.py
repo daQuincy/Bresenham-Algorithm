@@ -23,7 +23,8 @@ def bresenham(start, end):
     step = 1
     if x0>x1 or y0>y1:
         step = -1
-        
+
+    mm = False   
     if m < 1:
         x0, x1 ,y0 ,y1 = y0, y1, x0, x1
         dx = abs(x1 - x0)
